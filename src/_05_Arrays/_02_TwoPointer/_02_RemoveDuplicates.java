@@ -1,4 +1,4 @@
-package _05_Arrays._02_Patterns;
+package _05_Arrays._02_TwoPointer;
 
 public class _02_RemoveDuplicates {
     public int removeElement(int[] nums, int val) {

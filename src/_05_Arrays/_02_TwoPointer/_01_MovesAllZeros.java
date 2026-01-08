@@ -1,4 +1,4 @@
-package _05_Arrays._02_Patterns;
+package _05_Arrays._02_TwoPointer;
 
 public class _01_MovesAllZeros {
     public void moveZeroes(int[] nums) {
