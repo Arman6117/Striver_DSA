@@ -1,4 +1,4 @@
-package _06_Strings.SlidingWindow;
+package SlidingWindow;
 
 import java.util.*;
 class SolutionOfAnagram {
@@ -6,6 +6,7 @@ class SolutionOfAnagram {
         List<Integer> li = new ArrayList<>();
         int[] need = new int[26];
         int[] window  = new int[26];
+
 
         for(char c: p.toCharArray()){
             need[c- 'a']++;
