@@ -11,7 +11,7 @@ class SolutionMaxPoints {
             leftSum -= cardPoints[i];
             rightSum += cardPoints[rightIndex];
             rightIndex--;
-        }
+        }//
         return Math.max(leftSum,rightSum);
     }
 }
